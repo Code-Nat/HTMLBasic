@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Sumbit Reqrest</title>
+</head>
+<body>
+    <form action="https://www.wunderground.com/wundermap" target="_blank">
+        <input name="lat" type="number" min="-90" max="90" placeholder="70" /> <b>Latitude (number between -90 to 90)</b>
+        <br />
+        <input name="lon" type="number" min="-180" max="180" placeholder="70" /> <b>longitude (number between -180 to 180)</b>
+        <br />
+        <select name="zoom">
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+        </select> <b>Select Zoom</b>
+        <br />
+        <input type="submit" value="See the wather" />
+    </form>
+    <hr />
+    <br />
+    <form action="http://universities.hipolabs.com/search" target="answerDropdown">
+        <b>Contry</b>
+        <select name="country">
+            <option>France </option>
+            <option>Japan</option>
+            <option>Israel</option>
+            <option>Switzerland</option>
+            <option>Mexico</option>
+        </select>
+        <input type="submit" value="Find University" />
+    </form>
+    <iframe name="answerDropdown"></iframe>
+    <br />
+    <form action="http://universities.hipolabs.com/search" target="answerRadio">
+        <input type="radio" name="country" value="France" />
+        <label>France</label>
+        <br />
+        <input type="radio" name="country" value="Japan" />
+        <label>Japan</label>
+        <br />
+        <input type="radio" name="country" value="Israel" />
+        <label>Israel</label>
+        <br />
+        <input type="radio" name="country" value="Switzerland" />
+        <label>Switzerland</label>
+        <br />
+        <input type="radio" name="country" value="Mexico" />
+        <label>Mexico</label>
+        <br />
+        <input type="submit" value="Find University" />
+    </form>
+    <iframe name="answerRadio"></iframe>
+    <br />
+    <br />
+    <br />
+    <br />
+</body>
+</html>
