@@ -1,0 +1,39 @@
+li 
+{
+    list-style: square;
+    color: #000000;
+}
+
+.Red 
+{
+    background-color: #ff0000;
+    color: #ffffff;
+}
+
+.Green 
+{
+    background-color: #00ff05;
+    color: #ffffff;
+}
+
+.Blue 
+{
+    background-color: #2100fb;
+    color: #ffffff;
+}
+
+.Yellow 
+{
+    background-color: #ffff00;
+}
+
+.Black 
+{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.ariel 
+{
+    font-family: "Sans-serif", Arial;
+}
