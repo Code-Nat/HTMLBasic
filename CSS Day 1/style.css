@@ -1,26 +1,29 @@
 #Red
 {
-    color:red;
+    background-color:red;
 }
 
 #Green 
 {
-    color:green;
+    background-color: green;
+    color: white;
 }
 
 #Blue 
 {
-    color:blue;
+    background-color: blue;
+    color: white;
 }
 
 #Yellow 
 {
-    color:yellow;
+    background-color: yellow;
 }
 
 #Black 
 {
-    color: black;
+    background-color: black;
+    color:white; 
 }
 
 #ariel 
