@@ -1,4 +1,4 @@
-li::before 
+li
 {
     list-style: square;
     color: black;
