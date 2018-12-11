@@ -1,32 +1,38 @@
-#Red
+li::before 
 {
-    background-color:red;
+    list-style: square;
+    color: black;
 }
 
-#Green 
+.Red {
+    background-color: red;
+    color: white;
+}
+
+.Green 
 {
     background-color: green;
     color: white;
 }
 
-#Blue 
+.Blue 
 {
     background-color: blue;
     color: white;
 }
 
-#Yellow 
+.Yellow 
 {
     background-color: yellow;
 }
 
-#Black 
+.Black 
 {
     background-color: black;
     color:white; 
 }
 
-#ariel 
+.ariel 
 {
     font-family: "Sans-serif", Arial;
 }
