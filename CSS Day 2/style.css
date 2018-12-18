@@ -1,0 +1,29 @@
+div 
+{
+    color: blue;
+    padding: 15px;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: red;
+    margin: 20px;
+}
+
+#background 
+{
+    background-color: black;
+    color: blue;
+    padding: 15px;
+    border-style: line;
+    border-color: black;
+    margin: 20px;
+}
+
+#a1 
+{
+    float: left;
+}
+
+#a2, #a3 
+{
+    float: right;
+}
