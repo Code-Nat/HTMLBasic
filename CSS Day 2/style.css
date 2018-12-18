@@ -1,4 +1,4 @@
-div 
+/*
 {
     color: blue;
     padding: 15px;
@@ -6,24 +6,44 @@ div
     border-style: dashed;
     border-color: red;
     margin: 20px;
+*/
+
+div {
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 auto;
+    border-width: 5vw;
+    font-size:xx-large;
 }
 
-#background 
-{
+#background {
+    z-index: 1;
     background-color: black;
-    color: blue;
-    padding: 15px;
-    border-style: line;
-    border-color: black;
-    margin: 20px;
+    position: fixed;
+    width: 90%;
+    height: 90%;
+    top: 5%;
+    left: 5%;
 }
 
-#a1 
-{
-    float: left;
+#htmlStyle {
+    background-color: white;
+    border-color: white;
+    border-style: solid;
+    position: fixed;
+    color: red;
+    z-index: 2;
+    top: 40%;
+    left: 40%;
 }
 
-#a2, #a3 
-{
-    float: right;
+#cssStyle {
+    background-color: red;
+    border-color: red;
+    border-style: solid;
+    position: fixed;
+    color: white;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
 }
