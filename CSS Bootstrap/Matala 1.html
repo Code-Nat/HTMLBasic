@@ -6,19 +6,28 @@
     <title></title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
 	<style>
-		#red
+		.row > div 
+		{
+			height: 50px;
+			text-align: center;
+			line-height: 50px;
+			font-size: xx-large;
+		}
+		.row > div:nth-child(1) 
 		{
 			background-color: red;
 		}
 
-		#green
+		.row > div:nth-child(2) 
 		{
 			background-color: green;
 		}
 	</style>
 </head>
 <body>
-	<div class="" id=" red"></div>
-	<div class="" id="green"></div>
+	<div class="row">
+		<div class="col-xs-offset-1 col-xs-4"></div>
+		<div class="col-xs-offset-2 col-xs-4"</div>
+	</div>
 </body>
 </html>
